@@ -33,10 +33,10 @@ const closeDetails = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
-      {characterId && (
+      <h1 className="Header">Rick and Morty Characters</h1>
+      {/* {characterId && (
         <Details charaId={characterId} close={closeDetails}/>
-      )}
+      )} */}
       {character.map((ch) => {
         return <Character key={ch.id} info = {ch} action={openDetails}/>
       })}

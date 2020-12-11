@@ -26,10 +26,10 @@ const StyledCharacter = styled.div`
 .info-container{
     display:flex;
     align-items:center;
-    background-color:rgba(0,0,0,.5);
-    border:2px white solid;
+    background-color:rgba(61,55,60,.5);
+    border:2px #83D2E4 solid;
     &:hover{
-        background-color:black;
+        background-color:#3D373C;
     }
 }
 img{
@@ -43,17 +43,25 @@ img{
 }
 h3{
     margin-bottom:1px;
+    text-transform:uppercase;
+    font-family:"montserrat";
+    font-size:2rem;
+    -webkit-text-stroke-width:.2px;
+    -webkit-text-stroke-color:black;
 }
 .info{
     margin-left:10%;
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
-    color:yellow;
+    color:#8BCF21;
 
 }
 p{
-    margin-left:5%;
+    margin-left:10px;
     margin-top:.5px;
+    font-family:"lora";
+    font-style:italic;
+    font-size:1.5rem;
 }
 `;
